@@ -1,0 +1,87 @@
+.img {
+  max-width: 250px;
+  height: 300px;
+  margin-left: 30px;
+  border-radius: 10px;
+  max-width: 250px;
+}
+.trendText {
+  text-align: center; /* Center the text horizontally */
+  margin-top: 50px; /* Add margin for spacing */
+  font-size: 24px; /* Set the font size */
+  font-weight: bold; /* Make the text bold */
+  color: #ffffff; /* Set the text color */
+  text-transform: uppercase; /* Convert the text to uppercase */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+  letter-spacing: 1px; /* Add letter spacing for better readability */
+  margin-bottom: 40px;
+}
+.box {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.text {
+  text-align: left;
+  max-width: 900px;
+}
+.container {
+  overflow-y: auto;
+  max-height: 300px;
+}
+.container::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+.container::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255, 0.1); /* Color of the scrollbar thumb */
+
+  border-radius: 10px;
+}
+.h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #646cff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+.genre {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #646cff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  margin-top: 30px;
+  text-align: left;
+}
+.link {
+  text-align: center; /* Center the text horizontally */
+  font-size: 18px; /* Set the font size */
+  font-weight: bold; /* Make the text bold */
+  color: #646cff; /* Set the text color */
+  margin-right: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+  letter-spacing: 1px; /* Add letter spacing for better readability */
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.active {
+  color: #2d7bbd;
+}
+.btn_ {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.colorRingWrapperBox {
+  display: flex;
+  justify-content: center;
+}
