@@ -1,7 +1,7 @@
-import { Header } from "../../components/Header/Header";
+import { Navigation } from "../../components/Navigation/Navigation";
 import { FetchTrendings } from "../../fetchTrending";
 import { useEffect, useState, useRef } from "react";
-import { TrendingList } from "../../components/TrendingList/TrendingList";
+import { MovieList } from "../../components/MovieList/MovieList";
 import { ColorRing } from "react-loader-spinner";
 import css from "../HomePage/HomePage.module.css";
 
@@ -72,7 +72,7 @@ export default function HomePage() {
   };
   return (
     <>
-      <Header ref={SearchRef} />
+      <Navigation />
 
       <div className={css.trendText}>Trending today</div>
       {error && <p className={css.error}>Ooooops... Try reloading the page</p>}
@@ -80,7 +80,7 @@ export default function HomePage() {
         <Filter value={filter} onChange={changeFilter} />
       )}
       <TrendingList arr={FilteredMovies} /> */}
-      <TrendingList arr={data.items} />
+      <MovieList arr={data.items} />
       {loader && (
         <div className={css.colorRingWrapperBox}>
           <ColorRing

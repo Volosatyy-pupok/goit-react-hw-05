@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 
-export const TrendingList = ({ arr }) => {
+export const MovieList = ({ arr }) => {
   const location = useLocation();
 
   return (

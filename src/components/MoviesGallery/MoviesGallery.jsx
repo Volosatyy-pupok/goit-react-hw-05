@@ -1,6 +1,4 @@
 import { Link, useLocation } from "react-router-dom";
-import css from "../TrendingList/TrendingList.module.css";
-
 import { FaStar } from "react-icons/fa";
 export const MoviesGallery = ({ arr }) => {
   const location = useLocation();
