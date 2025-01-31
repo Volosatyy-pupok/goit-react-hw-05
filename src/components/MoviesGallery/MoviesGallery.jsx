@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 export const MoviesGallery = ({ arr }) => {
   const location = useLocation();
-
+  //
   console.log(location);
   console.log("arr", arr);
   return (
