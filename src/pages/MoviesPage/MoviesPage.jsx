@@ -1,4 +1,3 @@
-import { Navigation } from "../../components/Navigation/Navigation";
 import { FetchMovies } from "../../fetchTrending";
 import { MoviesGallery } from "../../components/MoviesGallery/MoviesGallery";
 import toast, { Toaster } from "react-hot-toast";
@@ -98,8 +97,6 @@ export default function MoviesPage() {
   };
   return (
     <>
-      <Navigation></Navigation>
-
       <Toaster position="top-right"></Toaster>
       <form ref={SearchRef} className={css.form} onSubmit={handleSubmit}>
         <input

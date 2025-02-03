@@ -1,7 +1,6 @@
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
 import { FetchMovieDetails } from "../../fetchTrending";
 import { useEffect, useState, useRef, Suspense } from "react";
-import { Navigation } from "../../components/Navigation/Navigation";
 import { NavLink } from "react-router-dom";
 import css from "./MovieDetailsPage.module.css";
 import { ColorRing } from "react-loader-spinner";
@@ -41,7 +40,6 @@ export default function MovieDetailsPage() {
 
   return (
     <>
-      <Navigation></Navigation>
       {movie && (
         <>
           <Link to={BackLinkRef.current ?? "/movies"}>

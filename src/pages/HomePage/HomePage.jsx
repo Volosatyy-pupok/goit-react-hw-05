@@ -1,4 +1,3 @@
-import { Navigation } from "../../components/Navigation/Navigation";
 import { FetchTrendings } from "../../fetchTrending";
 import { useEffect, useState, useRef } from "react";
 import { MovieList } from "../../components/MovieList/MovieList";
@@ -72,8 +71,6 @@ export default function HomePage() {
   };
   return (
     <>
-      <Navigation />
-
       <div className={css.trendText}>Trending today</div>
       {error && <p className={css.error}>Ooooops... Try reloading the page</p>}
       {/* {data.items.length > 0 && (
